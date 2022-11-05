@@ -58,6 +58,7 @@ int find_sign(char *s)
 
 	if (negatives % 2 != 0)
 		sign = -1;
+
 	return (sign);
 }
 
@@ -72,6 +73,7 @@ int find_sign(char *s)
 
 int _atoi(char *s)
 {
+
 	int idx_digit_starts = (idx_num_starts));
 	int sign;
 	int digits_to_print = 0;
